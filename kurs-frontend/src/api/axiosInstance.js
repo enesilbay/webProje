@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3001', 
+  baseURL: 'https://webproje-63s7.onrender.com',
 });
 
 api.interceptors.request.use((config) => {
